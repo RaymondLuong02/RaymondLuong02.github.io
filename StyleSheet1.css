@@ -36,6 +36,7 @@ li a {
 }
 
 #Main {
+    font-family: "Courier New", monospace;
     float: left;
     display: block;
 }
