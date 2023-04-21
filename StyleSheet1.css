@@ -1,5 +1,5 @@
 ﻿nav {
-    background-color: crimson;
+    background-color: lightgrey;
     height: 100vh;
     float: left;
 }
@@ -11,6 +11,7 @@ ul {
 }
 
 li a {
+    font-family: "Courier New", monospace;
     background-color: white;
     padding: 1em 1.5em;
     display: block;
@@ -18,11 +19,11 @@ li a {
     border-radius: 20px;
     text-transform: uppercase;
     text-decoration: none;
-    color: crimson;
+    color: black;
 }
 
     li a:hover {
-        background-color: #555;
+        background-color: lightsalmon;
     }
 
 #Information {
@@ -49,4 +50,9 @@ div {
 
 body {
     margin: 0;
+}
+
+h1 {
+    text-shadow: 4px 4px 0px rgba(0,0,0,0.1);
+    transform: skew(-15deg);
 }
