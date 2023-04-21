@@ -34,11 +34,6 @@ li a {
     width: 250px;
 }
 
-    #Information:hover {
-        transition: transform 1.5s ease-in-out;
-        transform: rotate(900deg) scale(2.5);
-    }
-
 #Main {
     float: left;
     display: block;
